@@ -5,6 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/index.css" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Landing-MdAlMamun</title>
   </head>
 
@@ -91,7 +93,52 @@
 
       <!-- right side -->
       <div class="md:w-1/2">
-        <img src="./src/images/banner.png" alt="banner" class="w-full">
+        <img src="./src/images/banner.png" alt="banner" class="w-full" />
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="container max-w-360 mx-auto px-4 py-16">
+      <div class="bg-white rounded-xl shadow-lg p-8">
+        <div
+          class="flex flex-col md:flex-row justify-around items-center divide-y md:divide-y-0 md:divide-x divide-gray-200"
+        >
+          <!-- users stats -->
+          <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-5 bg-secondary/65 rounded-full text-2xl md:text-3xl lg:text-4xl text-red-600">
+              <!-- <img src="./src/images/user.png" alt="user image" class="size-8" /> -->
+              <i class="fa-sharp fa-solid fa-user" ></i>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold text-gray-900">90+</h3>
+              <p class="text-primary-text">Users</p>
+            </div>
+          </div>
+
+          <!-- location stats -->
+           <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-5 bg-secondary/65 rounded-full text-2xl md:text-3xl lg:text-4xl text-red-600">
+              <!-- <img src="./src/images/location.png" alt="user image" class="size-8"/> -->
+               <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold text-gray-900">30+</h3>
+              <p class="text-primary-text">Locations</p>
+            </div>
+          </div>
+
+          <!-- server stats -->
+           <div class="flex items-center gap-6 px-12 py-6 md:py-0">
+            <div class="p-5 bg-secondary/65 rounded-full text-2xl md:text-3xl lg:text-4xl text-red-600">
+              <!-- <img src="./src/images/storage.png" alt="user image" class="size-8"/> -->
+               <i class="fa-solid fa-server"></i>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold text-gray-900">50+</h3>
+              <p class="text-primary-text">Servers</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
