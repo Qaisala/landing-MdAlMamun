@@ -14,3 +14,20 @@
     @apply container max-w-360 mx-auto px-4 py-28;
   }
 } */
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: #dde0e4;
+  opacity: 1;
+  margin: 0 5px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary);
+  opacity: 1;
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+
