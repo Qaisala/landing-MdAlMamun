@@ -9,11 +9,11 @@
   --font-primary: "Rubik", sans-serif;
 }
 
-/* @layer {
+@layer {
   .section-container {
     @apply container max-w-360 mx-auto px-4 py-28;
   }
-} */
+}
 
 .swiper-pagination-bullet {
   width: 15px;
